@@ -16,3 +16,13 @@
 ```
 Scanner sc = new Scanner(System.in);
 ```
+
+### swap: 交换数组元素
+
+```
+static void swap(int[] a, int i, int j) {
+    int t = a[i];
+    a[i] = a[j];
+    a[j] = t;
+}
+```
