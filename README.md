@@ -1,23 +1,31 @@
-# java 算法运行环境
+# java 算法题编码环境
 
-编辑器: IDEA
+在 IDEA 编辑器搭建一个简易好用的 java 算法题编码环境。
 
 ## 文件选择
 
 - leetcode 使用 Solution 类
+  - 用法：把题目代码复制覆盖 `import java.util.*;` 下方内容，编写代码
 - acwing / nowcoder 使用 Main 类
+  - 用法：把代码重置，直接编写代码
 
-## 实时模板
+## 实时模板配置
 
-配置文件不支持复制到项目目录中，记录在本文件。创建实时模版，适用于 java 表达式。
+编辑器按需配置实时模板。因 IDEA 实时模板不支持配置到项目目录中，且内容不多，仅记录在说明文件。
+
+选中下方代码，菜单 Code -> Save as Live Template ，设置对应的适用于类型。
 
 ### sin: 使用 Scanner 输入
+
+右下角 Applicable in 选择: Java - Expression
 
 ```
 Scanner sc = new Scanner(System.in);
 ```
 
 ### swap: 交换数组元素
+
+右下角 Applicable in 选择: Java - Declaration
 
 ```
 static void swap(int[] a, int i, int j) {
